@@ -1,11 +1,3 @@
-Welcome to the homebridge-lg-thinq wiki!
-
-## homebridge-lg-thinq
-
-LG ThinQ plugin for [Homebridge](https://github.com/homebridge/homebridge).
-
-* [README](https://github.com/nVuln/homebridge-lg-thinq/blob/master/README.md)
-
 ## Device Configuration
 
 ### Washer / WashTower / Dryer
