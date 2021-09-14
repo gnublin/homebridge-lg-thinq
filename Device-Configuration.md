@@ -1,6 +1,4 @@
-## Device Configuration
-
-### Washer / WashTower / Dryer
+## Washer / WashTower / Dryer
 
 ```json
 {
@@ -16,7 +14,7 @@
 * `washer_trigger` default `false`, enable program finished trigger? worked as Occupancy sensor
 * `washer_door_lock` default `false, enable door lock status
 
-### Air Conditioner
+## Air Conditioner
 
 ```json
 {
@@ -38,7 +36,7 @@
 * `ac_temperature_sensor` default `false`, enable current temperature as sensor if you want setup automation
 * `ac_led_control` default `false`, enable led panel control (if your device supported)
 
-### Refrigerator
+## Refrigerator
 
 ```json
 {
