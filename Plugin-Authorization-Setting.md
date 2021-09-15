@@ -10,7 +10,7 @@ Put your `username` and `password` to plugin setting and it's done.
 
 ## if you using Hoobs and logged by Google account or Apple ID or Facebook account
 
-I recommended you should create new LG account (not logged by 3rd-party provider) and migrate all device to new account, it's fastest
+I RECOMMENDED you to create new LG account (not logged by 3rd-party provider) and migrate all device to new account, it's fastest
 
 or you can install `homebridge-config-ui-x` to use Custom UI feature
 
