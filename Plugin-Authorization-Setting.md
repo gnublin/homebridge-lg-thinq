@@ -4,9 +4,13 @@ It's easy to grant access, go to plugin setting, select `Login with LG Account (
 
 ![](https://user-images.githubusercontent.com/54855446/132935957-917aafff-ef74-4af0-a367-207359b58cd8.png)
 
-## if you using Hoobs
+## if you using Hoobs and LG account
 
-I recommended you should create new LG account (not logged by 3rd-party provider) and migrate all device to new account, it's faster
+Put your `username` and `password` to plugin setting and it's done.
+
+## if you using Hoobs and logged by Google account or Apple ID or Facebook account
+
+I recommended you should create new LG account (not logged by 3rd-party provider) and migrate all device to new account, it's fastest
 
 or you can install `homebridge-config-ui-x` to use Custom UI feature
 
