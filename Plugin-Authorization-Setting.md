@@ -12,6 +12,14 @@ Put your `username` and `password` to plugin setting and it's done.
 
 I RECOMMENDED you to create new LG account (not logged by 3rd-party provider) and migrate all device to new account, it's fastest
 
-or you can install `homebridge-config-ui-x` to use Custom UI feature
+or try following command in terminal
 
-NO WAY TO OBTAIN TOKEN BY MANUAL
+```
+$ npm install -g homebridge-lg-thinq
+
+$ thinq auth -c US -l en-US
+Log in here: xxxxxx <- visit this url and select Google or Apple ID to login
+Then paste the URL where the browser is redirected: <- then paste redirected url here
+
+Your refresh_token: <- your refresh_token will be displayed here
+```
