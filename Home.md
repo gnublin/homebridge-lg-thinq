@@ -1,10 +1,11 @@
 Welcome to the homebridge-lg-thinq wiki!
 
-## homebridge-lg-thinq
+## Overview
 
 LG ThinQ plugin for [Homebridge](https://github.com/homebridge/homebridge).
 
 * [README](https://github.com/nVuln/homebridge-lg-thinq/blob/master/README.md)
+* [Plugin Authorization Setting](https://github.com/nVuln/homebridge-lg-thinq/wiki/Plugin-Authorization-Setting)
 
 ## Device configuration
 
