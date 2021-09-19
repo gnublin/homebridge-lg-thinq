@@ -17,9 +17,11 @@ or try following command in terminal
 ```
 $ npm install -g homebridge-lg-thinq
 
-$ thinq auth -c US -l en-US
+$ thinq auth -c US -l en-US <- correcting your account country and language
 Log in here: xxxxxx <- visit this url and select Google or Apple ID to login
 Then paste the URL where the browser is redirected: <- then paste redirected url here
 
 Your refresh_token: <- your refresh_token will be displayed here
 ```
+
+put `refresh_token` to plugin setting
