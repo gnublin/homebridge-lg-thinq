@@ -1,25 +1,23 @@
-## If you using `homebridge-config-ui-x`
+## Grant access by LG account
 
-It's easy to grant access, go to plugin setting, select `Login with LG Account (plain username/password)` if you using LG account or select `Login with other methods` if you using 3rd-party like Google Account, Apple ID, Facebook ...
+This plugin use LG account with username/password to grant access
 
-![](https://user-images.githubusercontent.com/54855446/132935957-917aafff-ef74-4af0-a367-207359b58cd8.png)
+## If your account logged by Google account or Apple ID or Facebook account (using Third-party login)
 
-## if you using Hoobs and LG account
+You can create a second account with username/password, then assigning access to the home from the google/apple/facebook authenticated account to the new account.
 
-Put your `username` and `password` to plugin setting and it's done.
+You can use same email with google/apple/facebook account, LG treats them as separate accounts.
 
-## if you using Hoobs and logged by Google account or Apple ID or Facebook account
+Put your `username` and `password` of your second account to plugin setting and it's done.
 
-I RECOMMENDED you to create new LG account (not logged by 3rd-party provider) and migrate all device to new account, it's fastest
+## if you don't want to provide username/password, you can use `refresh_token` instead
 
-or try following command in terminal
+following command in terminal to grant `refresh_token`
 
 ```
 $ npm install -g homebridge-lg-thinq
 
-$ thinq auth -c US -l en-US <- correcting your account country and language
-Log in here: xxxxxx <- visit this url and select Google or Apple ID to login
-Then paste the URL where the browser is redirected: <- then paste redirected url here
+$ thinq login [username] [password] -c US -l en-US <- correcting your account country and language
 
 Your refresh_token: <- your refresh_token will be displayed here
 ```
