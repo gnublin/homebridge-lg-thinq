@@ -6,6 +6,8 @@ This plugin use LG account with username/password to grant access
 
 You can create a second account with username/password, then assigning access to the home from the google/apple/facebook authenticated account to the new account.
 
+Watch this video: https://www.youtube.com/watch?v=TIQU0Wo92E8
+
 You can use same email with google/apple/facebook account, LG treats them as separate accounts.
 
 Put your `username` and `password` of your second account to plugin setting and it's done.
