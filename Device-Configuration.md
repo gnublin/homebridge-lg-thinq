@@ -24,7 +24,25 @@
     "ac_mode": "BOTH",
     "ac_swing_mode": "VERTICAL",
     "ac_temperature_sensor": false,
-    "ac_fan_control": false
+    "ac_fan_control": false,
+    "ac_buttons": [
+        {
+            "name": "Cool",
+            "op_mode": 0
+        },
+        {
+            "name": "Energy Saver",
+            "op_mode": 6
+        },
+        {
+            "name": "Fan",
+            "op_mode": 2
+        },
+        {
+            "name": "Dry",
+            "op_mode": 1
+        }
+    ],
 }
 ```
 
