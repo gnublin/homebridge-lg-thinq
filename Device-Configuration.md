@@ -37,6 +37,9 @@
         {
             "name": "Fan",
             "op_mode": 2
+        },        {
+            "name": "Heat",
+            "op_mode": 4
         },
         {
             "name": "Dry",
